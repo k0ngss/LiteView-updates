@@ -1,20 +1,21 @@
 {
-  "version": "0.1.15",
+  "version": "0.1.16",
   "channel": "stable",
   "notes": [
-    "全新「照片折角与日出」图标，细浅青相框搭配白色山形和暖色太阳。",
-    "统一程序、安装器和卸载器图标，提供 16、24、32、48、64、128、256 px 七种尺寸。"
+    "透明背景的清新蓝绿图标，搭配浅青照片折角和杏黄日出，适配深浅背景。",
+    "修复标题栏仍显示旧图标的问题，统一标题栏、空窗口引导、程序、安装器和卸载器的图标。",
+    "提供 16、24、32、48、64、128、256 px 七种尺寸，并保持标题栏图标在高 DPI 缩放下清晰显示。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.15",
-  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.15/LiteView-Setup-0.1.15.exe",
-  "installer_sha256": "234ec5fb343165bd49ca6ad01880b78f9532602cedd33a39bca08e56c21ff4a7",
-  "installer_size": 555193,
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.16",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.16/LiteView-Setup-0.1.16.exe",
+  "installer_sha256": "d9633c5f9e6e1e9702d95f004f028b73e076194588659d09887aa2965c10751f",
+  "installer_size": 442133,
   "psd_plugin": {
-    "version": "0.1.15",
+    "version": "0.1.16",
     "api": 1,
     "arch": "windows-x64",
-    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.15/LiteView-0.1.15-psd.dll",
-    "sha256": "7ec9ac5657cd97c7cc19fca4297fb6978545bf923a4fc16811f9d110d3d56584",
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.16/LiteView-0.1.16-psd.dll",
+    "sha256": "a07f6da0c1cc6977d53ae5c528c2ca7ee4706e9bb285fe2723b977e2ae08ac65",
     "size": 207872
   }
 }
