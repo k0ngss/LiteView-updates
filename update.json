@@ -12,5 +12,13 @@
   "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.13",
   "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.13/LiteView-Setup-0.1.13.exe",
   "installer_sha256": "e0d36d2427a3bcf3a60e4c363443ac6a44931ee0d37462b50c80bc2ee176743d",
-  "installer_size": 421104
+  "installer_size": 421104,
+  "psd_plugin": {
+    "sha256": "504fd1693a222ec45d950bea3268095fe116c2afd7822a49b9662eeb8b8096ff",
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.13/LiteView-0.1.13-psd.dll",
+    "size": 207360,
+    "version": "0.1.13",
+    "arch": "windows-x64",
+    "api": 1
+  }
 }
