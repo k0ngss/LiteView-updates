@@ -1,24 +1,24 @@
 {
-  "version": "0.1.13",
+  "version": "0.1.14",
   "channel": "stable",
   "notes": [
-    "新增程序内“下载并安装”，只有用户点击才下载安装包，显示进度并允许取消。",
-    "校验安装包大小和 SHA-256；下载失败或校验不符时保留当前窗口和图片，不执行安装。",
-    "校验通过后提醒处理未保存的图片，提供保存后安装、放弃修改、取消；取消保存或保存失败时继续保留编辑。",
-    "关闭主窗口后启动安装向导，安装器等待 LiteView 进程完全退出再替换文件。",
-    "每日自动检查仍只读取版本清单并显示新版提示，不后台下载或自动安装。",
-    "发布工具自动生成安装包直链、大小和 SHA-256，旧版客户端继续通过公开下载页更新。"
+    "插件支持程序内一键下载安装，用户点击后才下载 DLL，无需网页、解压或手动选文件。",
+    "校验插件大小、SHA-256 和解码接口后安装；损坏下载或安装失败保留原插件和图片。",
+    "完善极简插件管理页面，显示已安装/可用版本、启用状态、支持格式和大小。",
+    "支持检查插件更新、启用/停用和移除；首次安装自动启用，更新保留停用设置。",
+    "下载支持进度和取消，安装无需重启，当前图片及未保存修改继续保留。",
+    "发布工具自动生成插件直链和校验信息；未来不兼容插件不会阻止主程序检查更新。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.13",
-  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.13/LiteView-Setup-0.1.13.exe",
-  "installer_sha256": "e0d36d2427a3bcf3a60e4c363443ac6a44931ee0d37462b50c80bc2ee176743d",
-  "installer_size": 421104,
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.14",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.14/LiteView-Setup-0.1.14.exe",
+  "installer_sha256": "683b084b9ae2e6eb80ccd9ca7cfae385b6aeb99e63874e796b7b3b6a4ab8558d",
+  "installer_size": 427565,
   "psd_plugin": {
-    "sha256": "504fd1693a222ec45d950bea3268095fe116c2afd7822a49b9662eeb8b8096ff",
-    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.13/LiteView-0.1.13-psd.dll",
-    "size": 207360,
-    "version": "0.1.13",
+    "version": "0.1.14",
+    "api": 1,
     "arch": "windows-x64",
-    "api": 1
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.14/LiteView-0.1.14-psd.dll",
+    "sha256": "0876867f958e02e109c833f65f93e53ee8300438c92048877129d42ef8995281",
+    "size": 207872
   }
 }
