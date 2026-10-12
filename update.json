@@ -1,24 +1,20 @@
 {
-  "version": "0.1.14",
+  "version": "0.1.15",
   "channel": "stable",
   "notes": [
-    "插件支持程序内一键下载安装，用户点击后才下载 DLL，无需网页、解压或手动选文件。",
-    "校验插件大小、SHA-256 和解码接口后安装；损坏下载或安装失败保留原插件和图片。",
-    "完善极简插件管理页面，显示已安装/可用版本、启用状态、支持格式和大小。",
-    "支持检查插件更新、启用/停用和移除；首次安装自动启用，更新保留停用设置。",
-    "下载支持进度和取消，安装无需重启，当前图片及未保存修改继续保留。",
-    "发布工具自动生成插件直链和校验信息；未来不兼容插件不会阻止主程序检查更新。"
+    "全新「照片折角与日出」图标，细浅青相框搭配白色山形和暖色太阳。",
+    "统一程序、安装器和卸载器图标，提供 16、24、32、48、64、128、256 px 七种尺寸。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.14",
-  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.14/LiteView-Setup-0.1.14.exe",
-  "installer_sha256": "683b084b9ae2e6eb80ccd9ca7cfae385b6aeb99e63874e796b7b3b6a4ab8558d",
-  "installer_size": 427565,
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.15",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.15/LiteView-Setup-0.1.15.exe",
+  "installer_sha256": "234ec5fb343165bd49ca6ad01880b78f9532602cedd33a39bca08e56c21ff4a7",
+  "installer_size": 555193,
   "psd_plugin": {
-    "version": "0.1.14",
+    "version": "0.1.15",
     "api": 1,
     "arch": "windows-x64",
-    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.14/LiteView-0.1.14-psd.dll",
-    "sha256": "0876867f958e02e109c833f65f93e53ee8300438c92048877129d42ef8995281",
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.15/LiteView-0.1.15-psd.dll",
+    "sha256": "7ec9ac5657cd97c7cc19fca4297fb6978545bf923a4fc16811f9d110d3d56584",
     "size": 207872
   }
 }
