@@ -1,14 +1,16 @@
 {
-  "version": "0.1.12",
+  "version": "0.1.13",
   "channel": "stable",
   "notes": [
-    "新增顶部“插件”入口，使用与主窗口一致的深色极简样式。",
-    "显示 PSD/PSB 插件安装及启用状态、支持格式和预览能力。",
-    "支持选择 DLL 安装或替换，验证兼容性，失败保留已有插件。",
-    "支持启用/停用，设置保存到当前用户，停用后不再解码新打开的 PSD/PSB。",
-    "“获取插件”打开公开下载页，不后台下载或自动安装。",
-    "调整紧凑工具栏布局，最小窗口下 GIF 控件和插件入口不会重叠。",
-    "安装升级保留已有插件及停用状态。"
+    "新增程序内“下载并安装”，只有用户点击才下载安装包，显示进度并允许取消。",
+    "校验安装包大小和 SHA-256；下载失败或校验不符时保留当前窗口和图片，不执行安装。",
+    "校验通过后提醒处理未保存的图片，提供保存后安装、放弃修改、取消；取消保存或保存失败时继续保留编辑。",
+    "关闭主窗口后启动安装向导，安装器等待 LiteView 进程完全退出再替换文件。",
+    "每日自动检查仍只读取版本清单并显示新版提示，不后台下载或自动安装。",
+    "发布工具自动生成安装包直链、大小和 SHA-256，旧版客户端继续通过公开下载页更新。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.12"
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.13",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.13/LiteView-Setup-0.1.13.exe",
+  "installer_sha256": "e0d36d2427a3bcf3a60e4c363443ac6a44931ee0d37462b50c80bc2ee176743d",
+  "installer_size": 421104
 }
