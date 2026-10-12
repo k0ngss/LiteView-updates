@@ -1,21 +1,19 @@
 {
-  "version": "0.1.18",
+  "version": "0.1.19",
   "channel": "stable",
   "notes": [
-    "移除更新窗口的勾选项，每次启动自动检查新版，无需设置，旧版关闭自动检查的设置不再影响启动检查。",
-    "安装及升级后通知资源管理器刷新程序和卸载器的图标，减少同一路径替换文件后仍显示旧图标的问题。",
-    "启动检查在后台进行，只提示新版，不自动下载或安装，不打断图片编辑。"
+    "修复关闭“版本更新”“插件管理”等弹窗时应用闪烁的问题，点击 ×、关闭按钮或按 Esc 后直接返回主窗口；下载完成后的进度窗口也使用相同的关闭流程。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.18",
-  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.18/LiteView-Setup-0.1.18.exe",
-  "installer_sha256": "06e342d323b6fa0ab85f303a1e5b4a6404fae2833ff7207fb0ee5a698000d068",
-  "installer_size": 441918,
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.19",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.19/LiteView-Setup-0.1.19.exe",
+  "installer_sha256": "085e8b4076d9eed26222ab6f1a314e6ea7669fdefc5eff47df661f3e0b2b9254",
+  "installer_size": 441906,
   "psd_plugin": {
-    "version": "0.1.18",
+    "version": "0.1.19",
     "api": 1,
     "arch": "windows-x64",
-    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.18/LiteView-0.1.18-psd.dll",
-    "sha256": "0a7804feb7197d01d79f741e088ee765e3af0cf9c3e336c2ade22688002b348a",
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.19/LiteView-0.1.19-psd.dll",
+    "sha256": "dc6ee633e3a14add707f722c168255dbed5d1b02dcbc15fa27b79e73d64a198a",
     "size": 207872
   }
 }
