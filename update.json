@@ -1,21 +1,21 @@
 {
-  "version": "0.1.16",
+  "version": "0.1.17",
   "channel": "stable",
   "notes": [
-    "透明背景的清新蓝绿图标，搭配浅青照片折角和杏黄日出，适配深浅背景。",
-    "修复标题栏仍显示旧图标的问题，统一标题栏、空窗口引导、程序、安装器和卸载器的图标。",
-    "提供 16、24、32、48、64、128、256 px 七种尺寸，并保持标题栏图标在高 DPI 缩放下清晰显示。"
+    "每次打开应用后自动检查新版，同一天再次打开也会检查，移除每日一次的限制。",
+    "更新设置改为“每次启动时自动检查新版”，保留关闭自动检查、手动检查和跳过版本的选择。",
+    "启动检查在后台进行，只提示新版，不自动下载或安装，不打断图片编辑。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.16",
-  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.16/LiteView-Setup-0.1.16.exe",
-  "installer_sha256": "d9633c5f9e6e1e9702d95f004f028b73e076194588659d09887aa2965c10751f",
-  "installer_size": 442133,
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.17",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.17/LiteView-Setup-0.1.17.exe",
+  "installer_sha256": "57c2ca4929962d6de3128aaddcbff655a2097f692c2d53f0f6f162fc59568798",
+  "installer_size": 442023,
   "psd_plugin": {
-    "version": "0.1.16",
+    "version": "0.1.17",
     "api": 1,
     "arch": "windows-x64",
-    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.16/LiteView-0.1.16-psd.dll",
-    "sha256": "a07f6da0c1cc6977d53ae5c528c2ca7ee4706e9bb285fe2723b977e2ae08ac65",
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.17/LiteView-0.1.17-psd.dll",
+    "sha256": "6ed563f7650fcb1c6ed129229bc80b9aae186c3c6590f1fcd82b356b7e39d18a",
     "size": 207872
   }
 }
