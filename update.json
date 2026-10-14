@@ -1,25 +1,22 @@
 {
-  "version": "0.1.21",
+  "version": "0.1.22",
   "channel": "stable",
   "notes": [
-    "从图片启动时，解码与界面初始化并行；快速图片直接显示，减少先出现空白欢迎页再显示图片的过程。",
-    "文件夹扫描和自然排序移到后台，图片显示不再等待同目录文件枚举；切图仍按文件名自然排序。",
-    "展开编辑面板时才创建输入框；静态图片采用像素缓冲转移，不透明像素跳过额外透明度运算。",
-    "较慢图片及时显示加载状态，打开失败保留可操作窗口和已有图片。",
-    "主窗口改为石墨灰与冰蓝的极简科技风，精简工具栏、细线图标及按钮样式，让图片更突出。",
-    "编辑面板按调整、尺寸和标注分组，小窗口自动调整间距；启动窗口跟随系统显示缩放，裁剪、文字、涂鸦、马赛克等现有功能保留。",
-    "插件、版本更新、下载进度、确认提示和关于页面统一样式；低频操作收进右上角“更多”菜单，支持方向键、Enter 与 Esc。"
+    "降低大图尺寸调整、PNG 保存和 GIF 解码时的内存占用，移除无用途的整图缓冲。",
+    "优化命令行导出，避免额外复制图片像素；PNG 输出和透明背景处理保持一致。",
+    "加强超大尺寸校验，防止像素字节数计算溢出。",
+    "整理编辑提交和插件校验逻辑，保留现有撤销、取消及下载失败保护。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.21",
-  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.21/LiteView-Setup-0.1.21.exe",
-  "installer_sha256": "c08248c0160a42f883c0fa2a152c497c7482ef4c498597e83936d625fe1ce114",
-  "installer_size": 446334,
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.22",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.22/LiteView-Setup-0.1.22.exe",
+  "installer_sha256": "9f2c06bbaeb6b3b6b5c59d8dc7892fd4b6aa240d702da04fc40b5593ab1eb29f",
+  "installer_size": 446684,
   "psd_plugin": {
-    "version": "0.1.21",
+    "version": "0.1.22",
     "api": 1,
     "arch": "windows-x64",
-    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.21/LiteView-0.1.21-psd.dll",
-    "sha256": "1dc5b37b1204ed0fdbea451aefff306fe9248b1cd3212e26cc06dc4502c7c075",
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.22/LiteView-0.1.22-psd.dll",
+    "sha256": "0254676d92fb13f74aa51affb7972c6325748a06bb95d58e14e11aff25fdb4d1",
     "size": 207872
   }
 }
