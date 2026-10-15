@@ -1,22 +1,21 @@
 {
-  "version": "0.1.23",
+  "version": "0.1.24",
   "channel": "stable",
   "notes": [
-    "新增 Ctrl+C 复制当前图片、Ctrl+V 打开剪贴板图片，并在“更多”菜单提供入口；输入框保留文字复制粘贴。",
-    "支持透明 PNG 和常见 Windows 剪贴板位图；粘贴失败保留当前图片，粘贴前保留未保存修改提醒。",
-    "新增默认开启的尺寸比例锁定，修改宽度或高度时自动联动另一项，可解锁独立输入；仍由“应用尺寸”或 Enter 确认。",
-    "完善剪贴板图片命名、切图与撤销状态隔离，以及尺寸锁定的键盘操作和多种缩放布局。"
+    "修复从桌面或资源管理器复制图片文件后，粘贴提示“剪贴板中没有图片”的问题；现在直接 Ctrl+C / Ctrl+V 即可打开，无需先截图。",
+    "支持中文和空格路径；复制多个文件时打开第一张可读取的图片，自动跳过文件夹、损坏及不存在的文件。",
+    "保留透明图片与截图粘贴；读取失败保留当前图片，复制或剪切的原文件与剪贴板内容均保持不变。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.23",
-  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.23/LiteView-Setup-0.1.23.exe",
-  "installer_sha256": "a93c3872a62d62bb25f021594d81d390b5a93c1bcaad254e1d47ce0a3538d43a",
-  "installer_size": 453385,
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.24",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.24/LiteView-Setup-0.1.24.exe",
+  "installer_sha256": "1915fe9def4bb1933448794caa50efaf68ea70552eaafaf27e87df379b9ec27b",
+  "installer_size": 454047,
   "psd_plugin": {
-    "version": "0.1.23",
+    "version": "0.1.24",
     "api": 1,
     "arch": "windows-x64",
-    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.23/LiteView-0.1.23-psd.dll",
-    "sha256": "b73cde9a6107152c788a34cd96a1a848061a838e77df7e986e15d3ab0fa7f775",
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.24/LiteView-0.1.24-psd.dll",
+    "sha256": "7a6599cd2d3615e1b0b8a4a83e343dcc44ec617f785c1ca5d148a1df26a926c0",
     "size": 207872
   }
 }
