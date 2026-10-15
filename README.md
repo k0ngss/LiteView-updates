@@ -4,9 +4,9 @@ Windows 10/11 x64 原生图片查看与基础编辑工具。此公开仓库提�
 
 [下载最新稳定版](https://github.com/k0ngss/LiteView-updates/releases/latest) · [查看版本清单](https://raw.githubusercontent.com/k0ngss/LiteView-updates/main/update.json)
 
-在发布页的 Assets 下载 `LiteView-Setup-0.1.22.exe` 安装。也可下载便携 ZIP；PSD/PSB 插件支持在程序内点击下载并安装，或使用发布页提供的独立插件包。查看和下载均无需登录 GitHub。每个版本提供 `SHA256SUMS.txt` 校验文件。
+在发布页的 Assets 下载 `LiteView-Setup-0.1.23.exe` 安装。也可下载便携 ZIP；PSD/PSB 插件支持在程序内点击下载并安装，或使用发布页提供的独立插件包。查看和下载均无需登录 GitHub。每个版本提供 `SHA256SUMS.txt` 校验文件。
 
-0.1.22 减少大图尺寸调整、PNG 保存和 GIF 解码中的额外缓冲，降低内存占用；优化导出并加强超大尺寸检查。现有查看、编辑、撤销、取消和下载保护行为保持。
+0.1.23 新增 Ctrl+C 复制当前图片、Ctrl+V 打开剪贴板图片，支持透明 PNG 与常见 Windows 位图；有未保存修改时先提醒，粘贴失败保留当前图片。尺寸面板默认等比例联动宽高，也可解锁独立输入，由“应用尺寸”或 Enter 确认。输入框保留原生文字复制粘贴；GIF 复制当前静态帧。本版不增加截图捕获功能。
 
 0.1.21 优化图片启动：图片解码与界面初始化并行，快速图片直接显示；文件夹扫描和自然排序改为后台执行，编辑输入框按需创建，减少大图像素复制和透明度运算。较慢图片显示加载状态，打开失败保留可操作窗口和已有图片。
 

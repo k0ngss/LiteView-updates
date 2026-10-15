@@ -1,22 +1,22 @@
 {
-  "version": "0.1.22",
+  "version": "0.1.23",
   "channel": "stable",
   "notes": [
-    "降低大图尺寸调整、PNG 保存和 GIF 解码时的内存占用，移除无用途的整图缓冲。",
-    "优化命令行导出，避免额外复制图片像素；PNG 输出和透明背景处理保持一致。",
-    "加强超大尺寸校验，防止像素字节数计算溢出。",
-    "整理编辑提交和插件校验逻辑，保留现有撤销、取消及下载失败保护。"
+    "新增 Ctrl+C 复制当前图片、Ctrl+V 打开剪贴板图片，并在“更多”菜单提供入口；输入框保留文字复制粘贴。",
+    "支持透明 PNG 和常见 Windows 剪贴板位图；粘贴失败保留当前图片，粘贴前保留未保存修改提醒。",
+    "新增默认开启的尺寸比例锁定，修改宽度或高度时自动联动另一项，可解锁独立输入；仍由“应用尺寸”或 Enter 确认。",
+    "完善剪贴板图片命名、切图与撤销状态隔离，以及尺寸锁定的键盘操作和多种缩放布局。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.22",
-  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.22/LiteView-Setup-0.1.22.exe",
-  "installer_sha256": "9f2c06bbaeb6b3b6b5c59d8dc7892fd4b6aa240d702da04fc40b5593ab1eb29f",
-  "installer_size": 446684,
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.23",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.23/LiteView-Setup-0.1.23.exe",
+  "installer_sha256": "a93c3872a62d62bb25f021594d81d390b5a93c1bcaad254e1d47ce0a3538d43a",
+  "installer_size": 453385,
   "psd_plugin": {
-    "version": "0.1.22",
+    "version": "0.1.23",
     "api": 1,
     "arch": "windows-x64",
-    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.22/LiteView-0.1.22-psd.dll",
-    "sha256": "0254676d92fb13f74aa51affb7972c6325748a06bb95d58e14e11aff25fdb4d1",
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.23/LiteView-0.1.23-psd.dll",
+    "sha256": "b73cde9a6107152c788a34cd96a1a848061a838e77df7e986e15d3ab0fa7f775",
     "size": 207872
   }
 }
