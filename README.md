@@ -4,7 +4,9 @@ Windows 10/11 x64 原生图片查看与基础编辑工具。此公开仓库提�
 
 [下载最新稳定版](https://github.com/k0ngss/LiteView-updates/releases/latest) · [查看版本清单](https://raw.githubusercontent.com/k0ngss/LiteView-updates/main/update.json)
 
-在发布页的 Assets 下载 `LiteView-Setup-0.1.25.exe` 安装。也可下载便携 ZIP；PSD/PSB 插件支持在程序内点击下载并安装，或使用发布页提供的独立插件包。查看和下载均无需登录 GitHub。每个版本提供 `SHA256SUMS.txt` 校验文件。
+在发布页的 Assets 下载 `LiteView-Setup-0.1.26.exe` 安装。也可下载便携 ZIP；PSD/PSB 插件支持在程序内点击下载并安装，或使用发布页提供的独立插件包。查看和下载均无需登录 GitHub。每个版本提供 `SHA256SUMS.txt` 校验文件。
+
+0.1.26 修复程序内升级时误报“无法确认 LiteView 已退出”的问题，安装器立即保存进程检测结果。已退出的程序可继续安装，仍在退出时等待释放文件。等待超时或无法确认进程状态时停止安装。
 
 0.1.25 采用 Monokai 深橄榄灰、暖白文字和灰卡其强调色，统一主窗口、编辑工具、圆角分组面板、胶囊按钮及各类弹窗。修复打开插件管理时的闪烁，后台检查只在内容变化时刷新，窗口和按钮使用双缓冲绘制。现有快捷键、图片编辑、剪贴板和插件下载安装功能保持可用。
 

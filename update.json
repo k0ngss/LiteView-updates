@@ -1,21 +1,21 @@
 {
-  "version": "0.1.25",
+  "version": "0.1.26",
   "channel": "stable",
   "notes": [
-    "界面改为 Monokai 深橄榄灰风格，使用暖白文字、灰卡其强调色、圆角分组面板和胶囊控件。",
-    "主窗口、编辑工具、更多菜单与插件、更新、下载、确认和关于弹窗统一样式，保留现有快捷键和图片编辑功能。",
-    "修复打开插件管理时的闪烁：后台检查只在内容变化时刷新，窗口和按钮使用双缓冲绘制，插件版本检查与下载安装功能保持可用。"
+    "修复程序内升级时误报“无法确认 LiteView 已退出”的问题；安装器立即保存进程检测结果，已退出的程序可正常继续安装。",
+    "程序仍在退出时等待释放文件，等待超时或无法确认进程状态时停止安装，继续保留其他运行窗口的安装阻止规则。",
+    "保留 0.1.25 的 Monokai 深橄榄灰界面与插件管理闪烁修复，现有图片编辑、剪贴板及插件功能保持可用。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.25",
-  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.25/LiteView-Setup-0.1.25.exe",
-  "installer_sha256": "fa73a4282eb1f207e8df4109a3fe47bced33fe4042365abc792772c8a8828183",
-  "installer_size": 455333,
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.26",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.26/LiteView-Setup-0.1.26.exe",
+  "installer_sha256": "f4c52179006950ab729873343baf38d1dd6cac62261e3fd89509412adfe52760",
+  "installer_size": 455252,
   "psd_plugin": {
-    "version": "0.1.25",
+    "version": "0.1.26",
     "api": 1,
     "arch": "windows-x64",
-    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.25/LiteView-0.1.25-psd.dll",
-    "sha256": "af3193732bad6b5da6c2250296dc292cbbc86547324c2feb3ed9ea1a770de0a5",
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.26/LiteView-0.1.26-psd.dll",
+    "sha256": "5243e65b9cda0d27dd2762af368c4e5c4c6786035010782e16f60486f200729f",
     "size": 207872
   }
 }
