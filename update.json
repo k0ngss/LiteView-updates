@@ -1,21 +1,21 @@
 {
-  "version": "0.1.24",
+  "version": "0.1.25",
   "channel": "stable",
   "notes": [
-    "修复从桌面或资源管理器复制图片文件后，粘贴提示“剪贴板中没有图片”的问题；现在直接 Ctrl+C / Ctrl+V 即可打开，无需先截图。",
-    "支持中文和空格路径；复制多个文件时打开第一张可读取的图片，自动跳过文件夹、损坏及不存在的文件。",
-    "保留透明图片与截图粘贴；读取失败保留当前图片，复制或剪切的原文件与剪贴板内容均保持不变。"
+    "界面改为 Monokai 深橄榄灰风格，使用暖白文字、灰卡其强调色、圆角分组面板和胶囊控件。",
+    "主窗口、编辑工具、更多菜单与插件、更新、下载、确认和关于弹窗统一样式，保留现有快捷键和图片编辑功能。",
+    "修复打开插件管理时的闪烁：后台检查只在内容变化时刷新，窗口和按钮使用双缓冲绘制，插件版本检查与下载安装功能保持可用。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.24",
-  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.24/LiteView-Setup-0.1.24.exe",
-  "installer_sha256": "1915fe9def4bb1933448794caa50efaf68ea70552eaafaf27e87df379b9ec27b",
-  "installer_size": 454047,
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.25",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.25/LiteView-Setup-0.1.25.exe",
+  "installer_sha256": "fa73a4282eb1f207e8df4109a3fe47bced33fe4042365abc792772c8a8828183",
+  "installer_size": 455333,
   "psd_plugin": {
-    "version": "0.1.24",
+    "version": "0.1.25",
     "api": 1,
     "arch": "windows-x64",
-    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.24/LiteView-0.1.24-psd.dll",
-    "sha256": "7a6599cd2d3615e1b0b8a4a83e343dcc44ec617f785c1ca5d148a1df26a926c0",
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.25/LiteView-0.1.25-psd.dll",
+    "sha256": "af3193732bad6b5da6c2250296dc292cbbc86547324c2feb3ed9ea1a770de0a5",
     "size": 207872
   }
 }
