@@ -1,21 +1,21 @@
 {
-  "version": "0.1.26",
+  "version": "0.1.27",
   "channel": "stable",
   "notes": [
-    "修复程序内升级时误报“无法确认 LiteView 已退出”的问题；安装器立即保存进程检测结果，已退出的程序可正常继续安装。",
-    "程序仍在退出时等待释放文件，等待超时或无法确认进程状态时停止安装，继续保留其他运行窗口的安装阻止规则。",
-    "保留 0.1.25 的 Monokai 深橄榄灰界面与插件管理闪烁修复，现有图片编辑、剪贴板及插件功能保持可用。"
+    "修复插件管理等弹窗的胶囊按钮边缘锯齿，圆角填充和焦点边框采用抗锯齿绘制。",
+    "改善弹窗卡片、状态标签和进度条的圆角显示，适配 100% 至 200% 显示缩放，文字保持清晰。",
+    "保留双缓冲防闪烁、键盘操作和插件管理行为，继续包含程序内升级退出检测修复。"
   ],
-  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.26",
-  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.26/LiteView-Setup-0.1.26.exe",
-  "installer_sha256": "f4c52179006950ab729873343baf38d1dd6cac62261e3fd89509412adfe52760",
-  "installer_size": 455252,
+  "release_url": "https://github.com/k0ngss/LiteView-updates/releases/tag/v0.1.27",
+  "installer_url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.27/LiteView-Setup-0.1.27.exe",
+  "installer_sha256": "06a9f5114fd058dcac895d7ab0d8d90a1a8fe9646451978fb85421a0cbff7d35",
+  "installer_size": 455461,
   "psd_plugin": {
-    "version": "0.1.26",
+    "version": "0.1.27",
     "api": 1,
     "arch": "windows-x64",
-    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.26/LiteView-0.1.26-psd.dll",
-    "sha256": "5243e65b9cda0d27dd2762af368c4e5c4c6786035010782e16f60486f200729f",
+    "url": "https://github.com/k0ngss/LiteView-updates/releases/download/v0.1.27/LiteView-0.1.27-psd.dll",
+    "sha256": "532d82b2e61367597d6b9f7268e88971b38fad333ad82b92cf2bd31fcdd4295c",
     "size": 207872
   }
 }
